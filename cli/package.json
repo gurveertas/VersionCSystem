@@ -1,0 +1,26 @@
+{
+  "name": "gvx",
+  "version": "1.0.0",
+  "description": "A lightweight, local-first version control CLI",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "src/**/*.js",
+    "README.md"
+  ],
+  "keywords": [
+    "version-control",
+    "cli",
+    "git"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "gvx": "./src/index.js"
+  },
+  "dependencies": {
+    "yargs": "^18.2.0"
+  }
+}
